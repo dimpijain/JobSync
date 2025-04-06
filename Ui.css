@@ -1,0 +1,54 @@
+.app {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .upload-section, .results-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .upload-section label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .upload-section input {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #2c3e50;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #34495e;
+  }
+  
+  .results-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .results-section li {
+    background: #f2f2f2;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-radius: 5px;
+  }
+  
